@@ -6,9 +6,13 @@ import HeroHome from '../partials/HeroHome';
 import FeaturesBlocks from '../partials/FeaturesBlocks';
 import FeaturesZigZag from '../partials/FeaturesZigzag';
 import FeaturesZigZagArch from '../partials/FeaturesZigzagArch';
+import FeaturesZigZagMore from '../partials/FeaturesZigZagMore';
 import FeaturesZigZagOriginal from '../partials/FeaturesZigZagOriginal';
 import FeaturesZigZagLocal from '../partials/FeaturesZigZagLocal';
 import FeaturesZigZagNational from '../partials/FeaturesZigZagNational';
+import FeaturesZigZagPod1 from '../partials/FeaturesZigZagPod1';
+import FeaturesZigZagNationalPod2 from '../partials/FeaturesZigZagNationalPod2';
+import FeaturesZigZagNationalPod3 from '../partials/FeaturesZigZagNationalPod3';
 
 import Testimonials from '../partials/Testimonials';
 import Newsletter from '../partials/Newsletter';
@@ -34,9 +38,13 @@ function Home() {
         <FeaturesZigZagOriginal />
         <FeaturesZigZagLocal/>
         <FeaturesZigZagNational/>
-        <FeaturesZigZagArch/>
-        
+        <FeaturesZigZagPod1/>
+        <FeaturesZigZagNationalPod2/>
+        <FeaturesZigZagNationalPod3/>
+        <FeaturesZigZagArch/>        
         <Testimonials />
+        <FeaturesZigZagMore/>
+
       </main>
 
       <Banner />
