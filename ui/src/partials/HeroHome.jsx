@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import Modal from '../utils/Modal';
 
-import HeroImage from '../images/hero-image-01.jpg';
+import HeroImage from '../images/ss.jpg';
 
 function HeroHome() {
   const [videoModalOpen, setVideoModalOpen] = useState(false);
@@ -99,7 +99,7 @@ function HeroHome() {
             <Modal id="modal" ariaLabel="modal-headline" show={videoModalOpen} handleClose={() => setVideoModalOpen(false)}>
               <div className="relative pb-9/16">
                 <video ref={video} className="absolute w-full h-full" width="1920" height="1080" loop autoPlay controls>
-                  <source src="/videos/video.mp4" type="video/mp4" />
+                  <source src="/videos/flagrant1.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
               </div>

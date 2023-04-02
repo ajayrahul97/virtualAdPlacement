@@ -29,7 +29,6 @@ function Home() {
         <FeaturesBlocks />
         <FeaturesZigZagWithVid />
         <Testimonials />
-        <Newsletter />
       </main>
 
       <Banner />
