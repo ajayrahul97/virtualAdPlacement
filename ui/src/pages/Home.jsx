@@ -5,6 +5,7 @@ import PageIllustration from '../partials/PageIllustration';
 import HeroHome from '../partials/HeroHome';
 import FeaturesBlocks from '../partials/FeaturesBlocks';
 import FeaturesZigZag from '../partials/FeaturesZigzag';
+import FeaturesZigZagArch from '../partials/FeaturesZigzagArch';
 import FeaturesZigZagOriginal from '../partials/FeaturesZigZagOriginal';
 import FeaturesZigZagLocal from '../partials/FeaturesZigZagLocal';
 import FeaturesZigZagNational from '../partials/FeaturesZigZagNational';
@@ -33,6 +34,8 @@ function Home() {
         <FeaturesZigZagOriginal />
         <FeaturesZigZagLocal/>
         <FeaturesZigZagNational/>
+        <FeaturesZigZagArch/>
+        
         <Testimonials />
       </main>
 
