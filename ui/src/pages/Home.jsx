@@ -5,7 +5,10 @@ import PageIllustration from '../partials/PageIllustration';
 import HeroHome from '../partials/HeroHome';
 import FeaturesBlocks from '../partials/FeaturesBlocks';
 import FeaturesZigZag from '../partials/FeaturesZigzag';
-import FeaturesZigZagWithVid from '../partials/FeaturesZigZagWithVid';
+import FeaturesZigZagOriginal from '../partials/FeaturesZigZagOriginal';
+import FeaturesZigZagLocal from '../partials/FeaturesZigZagLocal';
+import FeaturesZigZagNational from '../partials/FeaturesZigZagNational';
+
 import Testimonials from '../partials/Testimonials';
 import Newsletter from '../partials/Newsletter';
 import Banner from '../partials/Banner';
@@ -27,7 +30,9 @@ function Home() {
         {/*  Page sections */}
         <HeroHome />
         <FeaturesBlocks />
-        <FeaturesZigZagWithVid />
+        <FeaturesZigZagOriginal />
+        <FeaturesZigZagLocal/>
+        <FeaturesZigZagNational/>
         <Testimonials />
       </main>
 
